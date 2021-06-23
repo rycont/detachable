@@ -1,0 +1,33 @@
+
+.column_wrapper {
+    display: flex;
+}
+
+.column {
+    flex: attr("data-width");
+}
+
+/* .column .column_header_wrap {
+} */
+
+.column+.column {
+    margin-left: 42px;
+}
+
+.column .column_header_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0px;
+}
+
+.column .column_header_wrap button {
+    font-size: 18px;
+    padding: 12px 18px;
+}
+
+.column .column_header_wrap h2 {
+    font-weight: 900;
+    margin: 0px;
+    font-size: 28px;
+}

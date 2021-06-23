@@ -1,0 +1,43 @@
+.nav_wrapper h1 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  font-weight: 900;
+}
+
+.nav_wrapper {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.nav_wrapper ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  align-items: center;
+  flex: 1;
+}
+
+.nav_wrapper ul li {
+  font-family: NanumSquare;
+  font-weight: 800;
+  font-size: 24px;
+
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.nav_wrapper ul li + li {
+  margin-left: 18px;
+}
+
+.nav_wrapper .input_wrapper {
+  margin-right: 18px;
+}
+
+.nav_wrapper .username_wrapper {
+  font-weight: 900;
+  font-size: 24px;
+  color: #ffffff;
+  margin-left: 48px;
+}

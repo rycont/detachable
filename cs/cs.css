@@ -1,0 +1,53 @@
+@import url("../styles/common.css");
+@import url("../styles/navbar.css");
+@import url("../styles/input.css");
+@import url("/styles/card.css");
+
+.search_wraper .input_wrapper {
+    max-width: 720px;
+    margin: 48px auto;
+    padding-left: 28px;
+}
+
+.search_wraper .input_wrapper input {
+    padding: 18px 28px;
+    padding-left: 10px;
+}
+
+.search_wraper .input_wrapper input {
+    font-size: 20px;
+}
+
+.tile_group_section h2 {
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.tile_group_section .tiles_wrapper {
+    display: flex;
+    margin: -12px;
+}
+
+.tile_group_section .tiles_wrapper .tile {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+    height: 120px
+}
+
+.tile_group_section .tiles_wrapper.with_image .tile {
+    height: 240px;
+}
+
+.tile_group_section .tiles_wrapper .tile p {
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.tile_group_section .tiles_wrapper .tile img+p {
+    margin-top: 24px;
+}

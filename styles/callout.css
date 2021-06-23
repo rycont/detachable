@@ -1,0 +1,12 @@
+.callout {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+}
+
+.callout img {
+    margin-right: 12px;
+}

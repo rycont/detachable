@@ -1,0 +1,63 @@
+.package {
+  display: flex;
+  margin: -9px;
+  margin-top: 9px;
+  overflow-x: auto;
+}
+
+.package .card {
+  background-color: var(--main-theme-card-bg);
+  width: 180px;
+  height: 180px;
+  color: black;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin: 9px;
+  flex-shrink: 0;
+}
+
+.package .card.package_title {
+  background-color: white;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.package .card.package_title .title {
+  font-weight: 800;
+  font-size: 22px;
+  flex: 1;
+}
+
+.package .card.package_title .origin_price {
+  font-weight: 800;
+  font-size: 16px;
+  color: #8f8f8f;
+  text-decoration: line-through;
+}
+
+.package .card.package_title .sale_price {
+  color: #ff6c6c;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.package .card .image_wrapper {
+  background-color: white;
+  flex: 1;
+  border-radius: 24px;
+  display: grid;
+  place-items: center;
+}
+
+.package .card .image_wrapper img {
+  width: calc(100% - 20px);
+}
+
+.package .card .product_name {
+  color: white;
+  margin: 12px;
+  text-align: center;
+  font-weight: 900;
+}

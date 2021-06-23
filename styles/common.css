@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap");
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@font-face {
+  font-family: "IBMPlexSansKR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+    format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "IBMPlexSansKR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Bold.woff")
+    format("woff");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "IBMPlexSansKR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-SemiBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: 700;
+}
+
+:root {
+  --main-theme: #252833;
+  --main-theme-rgb: 37, 40, 51;
+
+  --main-theme-card-bg: #4d5365;
+}
+
+body {
+  margin: 0px;
+  background-color: var(--main-theme);
+  color: white;
+  max-width: 1600px;
+  margin: 0px auto;
+  font-family: "NanumSquare", sans-serif;
+  padding: 0px 24px;
+  margin-bottom: 96px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  margin: 0px;
+}

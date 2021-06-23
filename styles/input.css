@@ -1,0 +1,24 @@
+.input_wrapper input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 12px 18px;
+  background-color: transparent;
+
+  font-family: NanumSquare;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.input_wrapper input::placeholder {
+  color: white;
+}
+
+.input_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 18px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}

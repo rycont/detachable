@@ -1,0 +1,111 @@
+@import url("/styles/common.css");
+@import url("/styles//navbar.css");
+@import url("/styles/input.css");
+@import url("/styles/column_layout.css");
+@import url("/styles/card.css");
+@import url("/styles/button.css");
+@import url("/styles/callout.css");
+
+.wallet .card {
+    padding: 42px;
+}
+
+.wallet .balance {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.wallet .balance_krw {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.wallet .balance_charge_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wallet .text_button {
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 12px;
+}
+
+.wallet .text_button img {
+    vertical-align: bottom;
+}
+
+.wallet .callout {
+    margin-top: 16px;
+}
+
+.card.shipment {
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.card.shipment .name_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.purchase_card {
+    padding: 24px;
+}
+
+.purchase_card + .purchase_card {
+    margin-top: 12px;
+}
+
+.purchase_card h3 {
+    margin: 0px;
+}
+
+.purchase_card p.date {
+    font-weight: 700;
+    opacity: 0.6;
+    margin-top: 4px;
+}
+
+.purchased_product {
+    display: flex;
+    margin-top: 12px;
+}
+
+.purchased_product .image_wrapper {
+    width: 90px;
+    height: 90px;
+}
+
+.purchased_product .image_wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.purchased_product .product_info .name {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.purchased_product .product_info .price {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+.purchased_product .product_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18px;
+}
+

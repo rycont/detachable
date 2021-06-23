@@ -1,0 +1,56 @@
+.group_section h2 {
+  font-size: 28px;
+  font-weight: 900;
+  font-family: IBMPlexSansKR;
+  margin: 0px;
+  margin-right: 24px;
+}
+
+.section_title_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.section_title_wrap a {
+  font-family: IBMPlexSansKR;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+p {
+  margin: 0px;
+}
+
+.multiple_group_section h3 {
+  font-size: 24px;
+  margin: 48px 0px 18px;
+}
+
+.multiple_group_section .product {
+  margin-top: 24px;
+}
+
+.multiple_group_section .multiple_group_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.multiple_group_section .group_section + .group_section {
+  margin-left: 32px;
+}
+
+.individual_products_section h3 {
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.product_grid_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -12px;
+}
+
+.product_grid_wrapper .product {
+  margin: 12px;
+}
