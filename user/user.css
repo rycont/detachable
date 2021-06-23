@@ -56,6 +56,18 @@
     margin-bottom: 16px;
 }
 
+.card.shipment .name_header img {
+    transition: 300ms var(--ease-function);
+}
+
+.card.shipment .name_header:hover img:not(:hover) {
+    opacity: 0.7;
+}
+
+.card.shipment .name_header img:hover {
+    transform: scale(1.03);
+}
+
 .purchase_card {
     padding: 24px;
 }

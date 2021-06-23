@@ -26,8 +26,8 @@
 :root {
   --main-theme: #252833;
   --main-theme-rgb: 37, 40, 51;
-
   --main-theme-card-bg: #4d5365;
+  --ease-function: cubic-bezier(0,.57,.38,.97);
 }
 
 body {

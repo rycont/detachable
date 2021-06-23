@@ -8,20 +8,27 @@
     <link rel="stylesheet" href="./cs.css">
 </head>
 <body>
-    <nav class="nav_wrapper">
-        <h1>DETACHABLE</h1>
-        <ul>
-          <li>카테고리</li>
-          <li>패키지</li>
-          <li>고객지원</li>
-        </ul>
-        <div class="input_wrapper">
+  <nav class="nav_wrapper">
+      <h1>
+          <a href="/">DETACHABLE</a>
+      </h1>
+      <ul>
+          <li class="opacity">카테고리</li>
+          <li class="opacity">패키지</li>
+          <li class="opacity">
+              <a href="/cs">고객지원</a>
+          </li>
+          <li class="opacity">
+              <a href="/login">로그아웃</a>
+          </li>
+      </ul>
+      <div class="input_wrapper">
           <img src="/assets/search.svg" alt="" />
           <input type="text" placeholder="검색 .." />
-        </div>
-        <img src="/assets/cart.svg" alt="" />
-        <a href="/user" class="username_wrapper">USER1님</a>
-      </nav>
+      </div>
+      <img src="/assets/cart.svg" alt="" />
+      <a href="/user" class="username_wrapper">USER1님</a>
+  </nav>
       <div class="search_wraper">  
         <div class="input_wrapper">
             <img src="/assets/search.svg" alt="" />
@@ -31,19 +38,19 @@
       <section class="tile_group_section">
         <h2>고객지원</h2>
         <div class="tiles_wrapper with_image">
-          <div class="tile">
+          <div class="tile opacity">
             <img src="/assets/chat.svg" alt="">
             <p>
               채팅상담
             </p>
           </div>
-          <div class="tile">
+          <div class="tile opacity">
             <img src="/assets/mail.svg" alt="">
             <p>
               메일 문의
             </p>
           </div>
-          <div class="tile">
+          <div class="tile opacity">
             <img src="/assets/clock.svg" alt="">
             <p>
               전화상담 예약
@@ -54,22 +61,22 @@
       <section class="tile_group_section">
         <h2>분류별 보기</h2>
         <div class="tiles_wrapper">
-          <div class="tile">
+          <div class="tile opacity">
             <p>
               주문
             </p>
           </div>
-          <div class="tile">
+          <div class="tile opacity">
             <p>
               배송
             </p>
           </div>
-          <div class="tile">
+          <div class="tile opacity">
             <p>
               결제
             </p>
           </div>
-          <div class="tile">
+          <div class="tile opacity">
             <p>
               사업제안
             </p>

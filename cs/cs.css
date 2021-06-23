@@ -35,7 +35,9 @@
     align-items: center;
     justify-content: center;
     margin: 12px;
-    height: 120px
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
 }
 
 .tile_group_section .tiles_wrapper.with_image .tile {
