@@ -1,0 +1,50 @@
+@import url("/styles/common.css");
+@import url("/styles/navbar.css");
+@import url("/styles/input.css");
+@import url("/styles/button.css");
+
+iframe {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -10;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.underfloating {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(27px);
+  width: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.product_info {
+    display: flex;
+    font-family: IBMPlexSansKR;
+    align-items: flex-end;
+}
+
+.product_info .product_name {
+    font-size: 27px;
+}
+
+.product_info .price,.origin_price {
+    font-size: 24px;
+    margin-left: 18px;
+}
+
+.product_info .origin_price {
+    opacity: 0.8;
+    text-decoration: line-through;
+    margin-left: 10px;
+}

@@ -4,6 +4,11 @@
   display: flex;
   border-radius: 24px;
   overflow: hidden;
+  transition: transform 300ms var(--ease-function);
+}
+
+.product:hover {
+  transform: scale(1.03);
 }
 
 .product .image_wrapper {

@@ -43,3 +43,18 @@
   color: #ffffff;
   margin-left: 48px;
 }
+
+.nav_dim {
+  padding: 50px 0px;
+  /* border: 1px solid red; */
+  position: absolute;
+  width: 100vw;
+  left: 0px;
+  box-sizing: border-box;
+  background: linear-gradient(rgba(var(--main-theme-rgb), 0.7), transparent);
+}
+
+.nav_dim .nav_wrapper {
+  margin: 0px auto;
+  max-width: 1600px;
+}

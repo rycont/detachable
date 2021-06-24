@@ -16,6 +16,11 @@
   flex-direction: column;
   margin: 9px;
   flex-shrink: 0;
+  transition: transform 300ms var(--ease-function);
+}
+
+.package .card:hover {
+  transform: scale(1.03);
 }
 
 .package .card.package_title {

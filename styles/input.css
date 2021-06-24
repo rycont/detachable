@@ -8,6 +8,7 @@
   font-family: NanumSquare;
   font-weight: 800;
   font-size: 16px;
+  color: white;
 }
 
 .input_wrapper input::placeholder {
